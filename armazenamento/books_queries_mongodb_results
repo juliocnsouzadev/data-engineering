@@ -1,0 +1,210 @@
+
+a) clear
+{
+    "nInserted": 0,
+    "nUpserted": 0,
+    "nMatched": 0,
+    "nModified": 0,
+    "nRemoved": 4
+}
+
+b) sample
+{
+	"_id" : 1,
+	"title" : "Unlocking Android",
+	"isbn" : "1933988673",
+	"pageCount" : 416,
+	"publishedDate" : ISODate("2009-04-01T04:00:00.000-03:00"),
+	"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+	"shortDescription" : "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout.",
+	"longDescription" : "Android is an open source mobile phone platform based on the Linux operating system and developed by the Open Handset Alliance, a consortium of over 30 hardware, software and telecom companies that focus on open standards for mobile devices. Led by search giant, Google, Android is designed to deliver a better and more open and cost effective mobile experience.    Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout. Based on his mobile development experience and his deep knowledge of the arcane Android technical documentation, the author conveys the know-how you need to develop practical applications that build upon or replace any of Androids features, however small.    Unlocking Android: A Developer's Guide prepares the reader to embrace the platform in easy-to-understand language and builds on this foundation with re-usable Java code examples. It is ideal for corporate and hobbyists alike who have an interest, or a mandate, to deliver software functionality for cell phones.    WHAT'S INSIDE:        * Android's place in the market      * Using the Eclipse environment for Android development      * The Intents - how and why they are used      * Application classes:            o Activity            o Service            o IntentReceiver       * User interface design      * Using the ContentProvider to manage data      * Persisting data with the SQLite database      * Networking examples      * Telephony applications      * Notification methods      * OpenGL, animation & multimedia      * Sample Applications  ",
+	"status" : "PUBLISH",
+	"authors" : [
+		"W. Frank Ableson",
+		"Charlie Collins",
+		"Robi Sen"
+	],
+	"categories" : [
+		"Open Source",
+		"Mobile"
+	]
+}
+
+3) contagem de livros
+431
+
+4) isbn <= 1000000000
+[
+	{
+		"_id" : 211,
+		"title" : "Comprehensive Networking Glossary and Acronym Guide",
+		"isbn" : "013319955X",
+		"pageCount" : 208,
+		"publishedDate" : ISODate("1995-01-01T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/malkin.jpg",
+		"shortDescription" : "This glossary offers a complete collection of technical terms and acronyms used in the networking industry.",
+		"longDescription" : "This glossary offers a complete collection of technical terms and acronyms used in the networking industry. It covers general networking terminology, the specific terminology used in the Internet, and terms and acronyms specific to AppleTalk, IP, IPX, SNA, and OSI. It also covers national and international networking organizations and several major networks.    Organized in case-insensitive, alphabetic order, entries present well written definitions, understandable to novice readers and useful to experts. The glossary and the glossary entries are:    verified  cross-referenced  comprehensive  concise  understandable  For extra guidance, the book ends with three appendices, each listing the entries in one of three subject areas: networks and organizations, security, and applications and protocols.  The Comprehensive Networking Glossary and Acronym Guide is a valuable, single-source reference for the practical terminology of networking as well as a guide to networks and networking organizations.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Gary Scott Malkin"
+		],
+		"categories" : [
+			"Internet"
+		]
+	},
+	{
+		"_id" : 274,
+		"title" : "Personal Videoconferencing",
+		"isbn" : "013268327X",
+		"pageCount" : 420,
+		"publishedDate" : ISODate("1996-06-01T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosen.jpg",
+		"shortDescription" : "\"Personal Videoconferencing is having an enormous impact on business. Evan Rosen has quantified that impact with examples of real world implementations and provided a primer on how businesses can achieve this competitive advantage for themselves.\"  --Frank Gill, Executive Vice President, Internet and Communications Group, Intel    \"The book is very good: it is clear and the examples of user applications are excellent\"  --Ralph Ungermann, CEO, First Virtual Corporation ",
+		"longDescription" : "The first book on the most powerful communication tool since the development of the personal computer, Personal Videoconferencing will help you streamline your business and gain a competitive edge. It summarizes the experience of more than seventy companies in many industries in the use of desktop and laptop videoconferencing to collaborate on documents and applications while communicating through video, face-to-face. Anyone who shares information with others will benefit from reading this book.  ",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Evan Rosen"
+		],
+		"categories" : [
+			"Networking"
+		]
+	},
+	{
+		"_id" : 519,
+		"title" : "Multimedia Computing",
+		"isbn" : "020152029X",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("1993-09-01T04:00:00.000-03:00"),
+		"status" : "PUBLISH",
+		"authors" : [
+			"Matthew E. Hodges"
+		],
+		"categories" : [ ]
+	},
+	{
+		"_id" : 530,
+		"title" : "Implementing SAP R/3, Second Edition",
+		"isbn" : "013889213X",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("1997-09-01T04:00:00.000-03:00"),
+		"status" : "PUBLISH",
+		"authors" : [ ],
+		"categories" : [ ]
+	}
+]
+
+4b) isbn <= 1000000000
+4
+
+5) isbn <= 1617200000
+22
+
+6a) isbn <= 1617200000 somente nomes
+22
+
+6b) isbn <= 1617200000 somente nomes
+[
+	{
+		"_id" : 39,
+		"title" : "Graphics File Formats"
+	}
+]
+
+7) add more books
+{
+    "nInserted": 4,
+    "nUpserted": 0,
+    "nMatched": 0,
+    "nModified": 0,
+    "nRemoved": 0
+}
+
+8) isbn <= 100000
+5
+
+9) isbn <= 100000 2 first
+[
+	{
+		"_id" : 211,
+		"title" : "Comprehensive Networking Glossary and Acronym Guide",
+		"isbn" : "013319955X",
+		"pageCount" : 208,
+		"publishedDate" : ISODate("1995-01-01T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/malkin.jpg",
+		"shortDescription" : "This glossary offers a complete collection of technical terms and acronyms used in the networking industry.",
+		"longDescription" : "This glossary offers a complete collection of technical terms and acronyms used in the networking industry. It covers general networking terminology, the specific terminology used in the Internet, and terms and acronyms specific to AppleTalk, IP, IPX, SNA, and OSI. It also covers national and international networking organizations and several major networks.    Organized in case-insensitive, alphabetic order, entries present well written definitions, understandable to novice readers and useful to experts. The glossary and the glossary entries are:    verified  cross-referenced  comprehensive  concise  understandable  For extra guidance, the book ends with three appendices, each listing the entries in one of three subject areas: networks and organizations, security, and applications and protocols.  The Comprehensive Networking Glossary and Acronym Guide is a valuable, single-source reference for the practical terminology of networking as well as a guide to networks and networking organizations.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Gary Scott Malkin"
+		],
+		"categories" : [
+			"Internet"
+		]
+	},
+	{
+		"_id" : 274,
+		"title" : "Personal Videoconferencing",
+		"isbn" : "013268327X",
+		"pageCount" : 420,
+		"publishedDate" : ISODate("1996-06-01T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosen.jpg",
+		"shortDescription" : "\"Personal Videoconferencing is having an enormous impact on business. Evan Rosen has quantified that impact with examples of real world implementations and provided a primer on how businesses can achieve this competitive advantage for themselves.\"  --Frank Gill, Executive Vice President, Internet and Communications Group, Intel    \"The book is very good: it is clear and the examples of user applications are excellent\"  --Ralph Ungermann, CEO, First Virtual Corporation ",
+		"longDescription" : "The first book on the most powerful communication tool since the development of the personal computer, Personal Videoconferencing will help you streamline your business and gain a competitive edge. It summarizes the experience of more than seventy companies in many industries in the use of desktop and laptop videoconferencing to collaborate on documents and applications while communicating through video, face-to-face. Anyone who shares information with others will benefit from reading this book.  ",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Evan Rosen"
+		],
+		"categories" : [
+			"Networking"
+		]
+	}
+]
+
+10) isbn <= 100000 skip 2 first
+[
+	"Multimedia Computing",
+	"Implementing SAP R/3, Second Edition",
+	"Saci Pererê"
+]
+
+11a) contains Windows
+11
+
+11b) contains Windows
+[
+	"Learn Windows PowerShell in a Month of Lunches",
+	"Windows PowerShell in Action",
+	"Windows PowerShell in Action, Second Edition",
+	"Windows Phone 7 in Action",
+	"Windows Store App Development: C# and XAML",
+	"Learn Windows IIS in a Month of Lunches",
+	"Learn Windows PowerShell in a Month of Lunches, Second Edition",
+	"Windows Phone 8 in Action",
+	"Windows Forms Programming with C#",
+	"Windows Forms in Action",
+	"Programming Windows Server 2003"
+]
+
+12) 2 least pageCounts
+[
+	{
+		"_id" : 3,
+		"pageCount" : 0
+	},
+	{
+		"_id" : 17,
+		"pageCount" : 0
+	}
+]
+
+12b) 2 biggest pageCounts
+[
+	{
+		"_id" : 70,
+		"pageCount" : 1101
+	},
+	{
+		"_id" : 315,
+		"pageCount" : 1096
+	}
+]

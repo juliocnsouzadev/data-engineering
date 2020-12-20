@@ -172,17 +172,169 @@ b) sample
 
 11b) contains Windows
 [
-	"Learn Windows PowerShell in a Month of Lunches",
-	"Windows PowerShell in Action",
-	"Windows PowerShell in Action, Second Edition",
-	"Windows Phone 7 in Action",
-	"Windows Store App Development: C# and XAML",
-	"Learn Windows IIS in a Month of Lunches",
-	"Learn Windows PowerShell in a Month of Lunches, Second Edition",
-	"Windows Phone 8 in Action",
-	"Windows Forms Programming with C#",
-	"Windows Forms in Action",
-	"Programming Windows Server 2003"
+	{
+		"_id" : 163,
+		"title" : "Learn Windows PowerShell in a Month of Lunches",
+		"isbn" : "1617290211",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2011-04-15T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones.jpg",
+		"shortDescription" : "Learn Windows PowerShell in a Month of Lunches is an innovative tutorial designed for busy administrators. Author Don Jones has taught thousands of administrators to use PowerShell, and now he'll teach you, bringing his years of training techniques to a concise, easy-to-follow book. Just set aside one hour a day   lunchtime would be perfect   for an entire month, and you'll be automating administrative tasks faster than you ever thought possible. Don combines his own in-the-trenches experience with years of PowerShell instruction to deliver the most important, effective, and engaging elements of PowerShell to you quickly and painlessly, setting you on the path to a career-boosting future.",
+		"longDescription" : "In Windows, there's a control panel, dialog box, administrative console, API, or wizard to manage every component of your system. There are    thousands    of them   so many that it can be nearly impossible to keep track of all the locations and settings you need to administer Windows effectively. For administrators, PowerShell is a godsend because it provides a single, unified command line from which you can control and automate every aspect of Windows. PowerShell finally enables Windows administrators to work in a way that Unix and Linux administrators have leveraged for decades.    Like classic administrative shells, PowerShell accepts and immediately executes typed commands. In addition, it has all the features of a full-fledged programming language built in, so you can create scripts to automate even the most complex tasks. And it's fully aware of all the components of Windows and most Windows servers, so you can use PowerShell to control Exchange, IIS, SharePoint, and other core pieces of your Windows system.    Learn Windows PowerShell in a Month of Lunches is an innovative tutorial designed for busy administrators. Author Don Jones has taught thousands of administrators to use PowerShell, and now he'll teach you, bringing his years of training techniques to a concise, easy-to-follow book. Just set aside one hour a day   lunchtime would be perfect   for an entire month, and you'll be automating administrative tasks faster than you ever thought possible. Don combines his own in-the-trenches experience with years of PowerShell instruction to deliver the most important, effective, and engaging elements of PowerShell to you quickly and painlessly, setting you on the path to a career-boosting future.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Don Jones"
+		],
+		"categories" : [
+			"Microsoft .NET"
+		]
+	},
+	{
+		"_id" : 246,
+		"title" : "Windows PowerShell in Action",
+		"isbn" : "1932394907",
+		"pageCount" : 576,
+		"publishedDate" : ISODate("2007-02-01T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/payette.jpg",
+		"shortDescription" : "   If all it had going for it was the authoratative pedigree of the writer, it might be worth it, but it's also well-written, well-organized, and thorough, which I think makes it invaluable as both a learning tool and a reference.       Slashdot.org",
+		"longDescription" : "Windows has an easy-to-use interface, but if you want to automate it, life can get hard. That is, unless you use PowerShell, an elegant new dynamic language from Microsoft designed as an all-purpose Windows scripting tool. PowerShell lets you script administrative tasks and control Windows from the command line. Because it was specifically developed for Windows, programmers and power-users can now do things in a shell that previously required VB, VBScript, or C#.    Windows PowerShell in Action was written by Bruce Payette, one of the founding members of the Windows PowerShell team, co-designer of the PowerShell language and the principal author of the PowerShell language implementation. From him you will gain a deep understanding of the language and how best to use it, and you'll love his insights into why PowerShell works the way it does.    This book is a tutorial for sysadmins and developers introducing the PowerShell language and its environment. It shows you how to build scripts and utilities to automate system tasks or create powerful system management tools to handle the day-to-day tasks that drive a Windows administrator's life. It's rich in interesting examples that will spark your imagination. The book covers batch scripting and string processing, COM, WMI, and even .NET and WinForms programming.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Bruce Payette"
+		],
+		"categories" : [
+			"Microsoft"
+		]
+	},
+	{
+		"_id" : 247,
+		"title" : "Windows PowerShell in Action, Second Edition",
+		"isbn" : "1935182137",
+		"pageCount" : 700,
+		"publishedDate" : ISODate("2011-05-15T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/payette2.jpg",
+		"shortDescription" : "Windows PowerShell in Action, Second Edition is a completely revised edition of the best selling book on PowerShell, written by Bruce Payette, one of the founding members of the Windows PowerShell team, co-designer of the PowerShell language, and the principal author of the PowerShell language implementation.    This new edition preserves the crystal-clear introduction to PowerShell, showing sysadmins and developers how to build scripts and utilities to automate system tasks or create powerful system management tools to handle day-to-day tasks. It's rich with interesting examples that will spark your imagination. The book covers batch scripting and string processing, COM, WMI, remote management and jobs and even .NET programming including WinForms and WPF/XAML.",
+		"longDescription" : "Windows PowerShell transformed the way administrators and developers interact with Windows. PowerShell, an elegant dynamic language from Microsoft, lets you script administrative tasks and control Windows from the command line. Because it's a full-featured, first-class Windows programming language, programmers and power-users can now do things in a shell that previously required VB, VBScript, or C#.    Windows PowerShell in Action, Second Edition is a completely revised edition of the best selling book on PowerShell, written by Bruce Payette, one of the founding members of the Windows PowerShell team, co-designer of the PowerShell language, and the principal author of the PowerShell language implementation.    This new edition preserves the crystal-clear introduction to PowerShell, showing sysadmins and developers how to build scripts and utilities to automate system tasks or create powerful system management tools to handle day-to-day tasks. It's rich with interesting examples that will spark your imagination. The book covers batch scripting and string processing, COM, WMI, remote management and jobs and even .NET programming including WinForms and WPF/XAML.    Windows PowerShell in Action, Second Edition adds full coverage of V2 features like remote, changes to the threading model, and the new -split and -join operators. The book now includes full chapters on Remoting, Modules, Events and Transactions, and the PowerShell Integrated Scripting Environment. As well, it provides deeper coverage of PowerShell \"commandlets\" (cmdlets) and more of the popular usage scenarios throughout the book.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Bruce Payette"
+		],
+		"categories" : [
+			"Microsoft"
+		]
+	},
+	{
+		"_id" : 252,
+		"title" : "Windows Phone 7 in Action",
+		"isbn" : "1617290092",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2012-08-21T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/perga.jpg",
+		"shortDescription" : "Windows Phone 7 in Action is a hands-on guide to building mobile applications for WP7 using Silverlight, C#, and XNA. Written for developers who already know their way around Visual Studio, this book zips through the basics, such as writing code to dial the phone, writing emails, and sending text messages, and moves on to the nuts and bolts of building great phone apps. By working through the numerous examples and tutorials, you'll master the APIs used to work with a phone's sensors and hardware, such as the accelerometer, camera, touch screen, GPS, and microphone. You'll also tackle web services and applications that use location and push notification services.",
+		"longDescription" : "Windows Phone 7 is a major shift in the way Microsoft developers design, develop, and sell mobile apps. By leveraging a trio of established technologies-Silverlight, XNA, and C#   developers can blend what they already know about Windows development with the new opportunities and challenges presented by a mobile platform. And with exciting new Windows Phone devices rolling out now, the demand for WP7 apps is just starting to build.    Windows Phone 7 in Action is a hands-on guide to building mobile applications for WP7 using Silverlight, C#, and XNA. Written for developers who already know their way around Visual Studio, this book zips through the basics, such as writing code to dial the phone, writing emails, and sending text messages, and moves on to the nuts and bolts of building great phone apps. By working through the numerous examples and tutorials, you'll master the APIs used to work with a phone's sensors and hardware, such as the accelerometer, camera, touch screen, GPS, and microphone. You'll also tackle web services and applications that use location and push notification services.    Along the way, you'll discover why Microsoft opted for Silverlight and XNA as the core technologies for WP7. As with Silverlight for the desktop, you can create stunning visual effects using C#. Silverlight for Windows Phone has been enriched with navigation services, a new execution model to better satisfy mobile requirements, and hooks for embedding a browser, playing media files, running cool animations, and more.    The XNA Framework provides libraries to handle 3D graphics, audio, and touch input. Because games are a key target of mobile app development, by the end of the book you will be able to write your own XNA game, utilizing the unique input abilities of the phone. You also learn how to tune your game code to get the best performance while running in the phone's constrained environment.",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Timothy Binkley-Jones",
+			"Massimo Perga",
+			"",
+			"Michael Sync"
+		],
+		"categories" : [
+			"Mobile Technology"
+		]
+	},
+	{
+		"_id" : 644,
+		"title" : "Windows Store App Development: C# and XAML",
+		"isbn" : "1617290947",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2013-06-03T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown3.jpg",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Peter M. Brown"
+		],
+		"categories" : [ ]
+	},
+	{
+		"_id" : 645,
+		"title" : "Learn Windows IIS in a Month of Lunches",
+		"isbn" : "1617290971",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2013-12-31T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/helmick.jpg",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Jason C. Helmick"
+		],
+		"categories" : [ ]
+	},
+	{
+		"_id" : 659,
+		"title" : "Learn Windows PowerShell in a Month of Lunches, Second Edition",
+		"isbn" : "1617291080",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2012-11-12T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones3.jpg",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Don Jones",
+			"Jeffery D. Hicks"
+		],
+		"categories" : [ ]
+	},
+	{
+		"_id" : 723,
+		"title" : "Windows Phone 8 in Action",
+		"isbn" : "1617291374",
+		"pageCount" : 0,
+		"publishedDate" : ISODate("2013-12-31T06:00:00.000-02:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/binkley.jpg",
+		"status" : "PUBLISH",
+		"authors" : [
+			"Timothy Binkley-Jones",
+			"Massimo Perga",
+			"Michael Sync",
+			"Adam Benoit"
+		],
+		"categories" : [ ]
+	},
+	{
+		"_id" : ObjectId("53c2ae8528d75d572c06ad9e"),
+		"title" : "Windows Forms Programming with C#",
+		"isbn" : "1930110286",
+		"pageCount" : 752,
+		"publishedDate" : ISODate("2002-03-01T05:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/eebrown.jpg",
+		"longDescription" : "In the .NET environment, GUI elements like menus, buttons, lists, trees--and of course the window itself--are created and deployed using the new Windows Forms framework. Windows Forms is an object-oriented set of classes that offers an effective, modern programming environment for rich Windows applications development.    Intended for beginner and intermediate programmers willing to get their hands dirty, this book teaches by example. Step-by-step instructions guide the reader through the entire Windows Forms namespace. Examples build around a common theme, collectively developing a real-world application. The book covers fundamentals like labels, menus, buttons, as well as advanced concepts like owner-drawn lists, explorer-style interfaces, customized data binding, and the integration of the Microsoft web browser control into a Windows program. Appendices include a 30-page reference to the C# language and a handy visual index of the Windows Forms classes.",
+		"status" : "PUBLISH",
+		"authors" : [ ],
+		"categories" : [ ]
+	},
+	{
+		"_id" : ObjectId("53c2ae8528d75d572c06ad9f"),
+		"title" : "Windows Forms in Action",
+		"isbn" : "1932394656",
+		"pageCount" : 950,
+		"publishedDate" : ISODate("2006-04-01T05:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/eebrown2.jpg",
+		"longDescription" : "Using many examples all on a common theme, this second edition of Windows Forms Programming with C# presents Windows application development in a step-by-step, easy to follow format. Written for beginner and intermediate programmers eager to get their hands dirty, the text covers fundamentals like labels, buttons, and tool strips, as well as advanced concepts like owner-drawn lists, custom controls, and two-way data binding.    The book is a tutorial, leading the reader through Windows application development using C# and Visual Studio .NET. It illustrates how the classes in the .NET Framework interact in a fully functional application. Material added for the second edition includes coverage of the .NET 2.0 Framework, extender providers, cryptographic classes, and application deployment.",
+		"status" : "PUBLISH",
+		"authors" : [ ],
+		"categories" : [ ]
+	},
+	{
+		"_id" : ObjectId("53c2ae8528d75d572c06adae"),
+		"title" : "Programming Windows Server 2003",
+		"isbn" : "1930110987",
+		"pageCount" : 328,
+		"publishedDate" : ISODate("2003-08-01T04:00:00.000-03:00"),
+		"thumbnailUrl" : "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/foster.jpg",
+		"longDescription" : "Windows Server 2003 is the most advanced Microsoft operating system bearing the Windows name. It includes the .NET Framework (version 1.1) so you can begin writing .NET applications for your enterprise without delay.    Programming Windows Server 2003 covers the new features of the OS and real-world techniques of applying them to your .NET applications. It is intended for intermediate and advanced-level .NET developers who wish to learn these new concepts now, and have a source for them in the future.    With this book your applications can benefit from new technologies in COM+, IIS 6, XML Web Services, and UDDI Services. The book illustrates best practices by developing a start-to-finish example: a contact management system. It includes a unique, easy to follow guide to securing your apps and is chock full of detailed coverage of topics important to practicing developers and architects.",
+		"status" : "PUBLISH",
+		"authors" : [ ],
+		"categories" : [ ]
+	}
 ]
 
 12) 2 least pageCounts

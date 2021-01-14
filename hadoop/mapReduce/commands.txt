@@ -1,0 +1,6 @@
+usr/local/hadoop/bin/hdfs namenode -format
+/usr/local/hadoop/sbin/start-all.sh
+
+ant -f /usr/local/hadoop/ExemploIGTI/build_ExemploIGTI.xml makejar
+bin/hadoop jar ExemploIGTI/ExemploIGTI.jar IGTI.ExemploIGTI
+bin/hdfs dfs -cat /user/igti/outputFolder/part-00000

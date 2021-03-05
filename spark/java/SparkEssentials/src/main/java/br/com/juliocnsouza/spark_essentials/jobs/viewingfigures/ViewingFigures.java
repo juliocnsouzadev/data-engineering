@@ -1,4 +1,4 @@
-package br.com.juliocnsouza.spark_essentials.viewingfigures;
+package br.com.juliocnsouza.spark_essentials.jobs.viewingfigures;
 
 import java.util.ArrayList;
 import java.util.List;

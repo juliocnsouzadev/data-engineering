@@ -3,6 +3,7 @@ package br.com.juliocnsouza.spark_essentials.jobs.wordcount;
 import br.com.juliocnsouza.spark_essentials.util.Util;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
@@ -50,6 +51,8 @@ public class Main {
         List<Tuple2<Long , String>> results = sorted.take( 10 );
         results.forEach( result -> System.out.println( result ) );
 
+        Scanner scanner = new Scanner( System.in );
+        scanner.nextLine();
         sc.close();
     }
 }

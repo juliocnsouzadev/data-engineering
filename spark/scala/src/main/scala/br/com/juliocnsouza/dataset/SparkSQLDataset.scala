@@ -1,12 +1,12 @@
 package br.com.juliocnsouza.dataset
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{Column, DataFrame, Dataset, Row, SparkSession}
+import org.apache.spark.sql.functions.{col, count, size, split, sum, udf}
 
 object SparkSQLDataset {
 
   case class Person(id: Int, name: String, age: Int, friends: Int)
-  case class AgeClassification (classification:String)
 
   /** Our main function where the action happens */
   def main(args: Array[String]) {
@@ -29,36 +29,32 @@ object SparkSQLDataset {
       .csv("data/fakefriends.csv")
       .as[Person]
 
-    schemaPeople.printSchema()
-
-    schemaPeople.createOrReplaceTempView("people")
 
 
-    val peopleClassification = schemaPeople.map(func = person => {
-      var ageClassfication = "baby"
-      if (person.age >= 3 && person.age <= 12) {
-        ageClassfication = "child"
+    val  getClassification = (age:Int) => {
+      var ageClassification = "baby"
+      if (age >= 3 && age <= 12) {
+        ageClassification = "child"
       }
-      if (person.age >= 13 && person.age <= 19) {
-        ageClassfication = "teenager"
+      if (age >= 13 && age <= 19) {
+        ageClassification = "teenager"
       }
-      if (person.age >= 20 && person.age <= 65) {
-        ageClassfication = "adult"
+      if (age >= 20 && age <= 65) {
+        ageClassification = "adult"
       }
-      if (person.age > 65) {
-        ageClassfication = "elderly"
+      if (age > 65) {
+        ageClassification = "elderly"
       }
-      return new AgeClassification(ageClassfication);
+      ageClassification
+    }
 
-    })
+    val getClassificationUDF = udf(getClassification)
 
-    schemaPeople.withColumn("ge_classification", peopleClassification("classification"))
+    val df = schemaPeople
+      .toDF()
+      .withColumn("classification", getClassificationUDF(col("age")))
 
-    val teenagers = spark.sql("SELECT * FROM people WHERE age >= 13 AND age <= 19")
-
-    val results = teenagers.collect()
-
-    results.foreach(println)
+    df.groupBy("classification").agg(count("id")).collect().foreach(println)
 
     spark.stop()
   }

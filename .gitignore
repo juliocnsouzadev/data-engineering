@@ -1,4 +1,5 @@
 /datasets
+/_base
 /spark/java/SparkEssentials/target/
 /spark/java/SparkEssentials/src/main/resources/big
 /spark/scala/src/main/scala/limbo
